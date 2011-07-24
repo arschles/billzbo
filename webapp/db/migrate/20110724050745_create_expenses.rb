@@ -4,7 +4,7 @@ class CreateExpenses < ActiveRecord::Migration
       t.integer :id
       t.references :user
       t.string :description
-      t.double :amount
+      t.float :amount
       t.references :payment
 
       t.timestamps
