@@ -3,6 +3,12 @@ Webapp::Application.routes.draw do
 
   resources :expenses
 
+  resources :users
+
+  resources :payments
+
+  resources :expenses
+
   get "home/index"
 
   # The priority is based upon order of creation:

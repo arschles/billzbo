@@ -1,4 +1,3 @@
 class Expense < ActiveRecord::Base
-  belongs_to :user
-  belongs_to :payment
+  belongs_to :user_id
 end

@@ -2,14 +2,12 @@
 
 one:
   id: 1
-  user: 
+  user_id: 
   description: MyString
-  amount: 
-  payment: 
+  amount: 1.5
 
 two:
   id: 1
-  user: 
+  user_id: 
   description: MyString
-  amount: 
-  payment: 
+  amount: 1.5

@@ -1,9 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  user: 
-  expense: 
+  id: 1
+  user_id: 
+  expense_id: 
 
 two:
-  user: 
-  expense: 
+  id: 1
+  user_id: 
+  expense_id: 

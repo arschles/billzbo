@@ -2,10 +2,9 @@ class CreateExpenses < ActiveRecord::Migration
   def self.up
     create_table :expenses do |t|
       t.integer :id
-      t.references :user
+      t.references :user_id
       t.string :description
       t.float :amount
-      t.references :payment
 
       t.timestamps
     end
