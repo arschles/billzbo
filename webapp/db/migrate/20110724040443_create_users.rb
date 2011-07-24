@@ -1,7 +1,7 @@
 class CreateUsers < ActiveRecord::Migration
   def self.up
     create_table :users do |t|
-      t.int :id
+      t.integer :id
 
       t.timestamps
     end
